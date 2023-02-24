@@ -3,8 +3,8 @@ import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
-
-
+//Animation
+import { AnimatePresence } from "framer-motion";
 //Router
 import {Routes, Route} from 'react-router-dom';
 
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <GlobalStyle/>
       <Nav/>
+      <AnimatePresence mode="wait">
       <Routes>
         <Route path="/" exact element={<AboutMe/>}/>
         <Route path="/aboutme" exact element={<AboutMe/>}/>
@@ -21,6 +22,7 @@ function App() {
       </Routes>
       <Work/>
       <Contact/>
+      </AnimatePresence>
     </div>
   );
 }
