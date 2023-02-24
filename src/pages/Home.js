@@ -1,4 +1,6 @@
-import AboutSection from "../components/AboutSection";
+import HomeSection from "../components/HomeSection";
+import ProjectSection from "../components/ProjectSection";
+import ContactSection from "../components/ContactSection";
 
 //Animations
 import { motion } from "framer-motion";
@@ -11,7 +13,7 @@ const Home = () => {
       variants={pageAnimation} 
       initial="hidden" 
       animate="show">
-   <AboutSection/>
+   <HomeSection/>
     </motion.div>
   );
 }

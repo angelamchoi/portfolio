@@ -1,5 +1,6 @@
+import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
-import Work from "./pages/Projects";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
@@ -15,13 +16,11 @@ function App() {
       <Nav/>
       <AnimatePresence mode="wait">
       <Routes>
-        <Route path="/" exact element={<AboutMe/>}/>
+        <Route path="/" exact element={<Home/>}/>
         <Route path="/aboutme" exact element={<AboutMe/>}/>
-        <Route path="/work" exact element={<Work/>}/>
+        <Route path="/work" exact element={<Projects/>}/>
         <Route path ="/contact" exact element={<Contact/>}/>
       </Routes>
-      <Work/>
-      <Contact/>
       </AnimatePresence>
     </div>
   );

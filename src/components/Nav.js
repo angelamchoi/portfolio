@@ -29,11 +29,11 @@ li {
 const Nav = () => {
   return(
     <StyledNav>
-      <h1><a href="#">Angela Choi</a></h1>
+      <h1><a href="/">Angela Choi</a></h1>
       <ul>
-        <li><a href="/aboutme">About Me</a></li>
+        <li><a href="/aboutme">About</a></li>
         <li><a href="/work">My Projects</a></li>
-        <li><a href="/contact">Contact Me</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </StyledNav>
   )
