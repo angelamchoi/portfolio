@@ -1,6 +1,9 @@
 import AngelaChoi from '../img/AngelaChoi.jpg';
+import { About } from "../styles";
+
 const AboutSection = () => {
   return (
+    <About>
     <div>
       <div className ="description">
         <div className="title">
@@ -19,6 +22,7 @@ const AboutSection = () => {
         <img src={AngelaChoi} alt="Angela Choi"/>
       </div>
     </div>
+    </About>
   )
 }
 
