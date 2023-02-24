@@ -14,8 +14,6 @@ const AboutMe = () => {
       initial="hidden" 
       animate="show">
    <AboutSection/>
-   <ProjectSection/>
-    <ContactSection/>
     </motion.div>
   );
 }
