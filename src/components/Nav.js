@@ -32,7 +32,7 @@ const Nav = () => {
       <h1><a href="#">Angela Choi</a></h1>
       <ul>
         <li><a href="/aboutme">About Me</a></li>
-        <li><a href="/work">My Work</a></li>
+        <li><a href="/project">My Projects</a></li>
         <li><a href="/contact">Contact Me</a></li>
       </ul>
     </StyledNav>

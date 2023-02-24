@@ -1,5 +1,5 @@
 import AboutMe from "./pages/AboutMe";
-import Work from "./pages/Work";
+import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
@@ -16,11 +16,11 @@ function App() {
       <Routes>
         <Route path="/" exact element={<AboutMe/>}/>
         <Route path="/aboutme" exact element={<AboutMe/>}/>
-        <Route path="/work" exact element={<Work/>}/>
+        <Route path="/project" exact element={<Project/>}/>
         <Route path ="/contact" exact element={<Contact/>}/>
       </Routes>
       <AboutMe/>
-      <Work/>
+      <Project/>
       <Contact/>
     </div>
   );
