@@ -1,9 +1,9 @@
 import AboutSection from "../components/AboutSection";
 
-const AboutUs = () => {
+const AboutMe = () => {
   return (
    <AboutSection/>
   );
 }
 
-export default AboutUs;
+export default AboutMe;
