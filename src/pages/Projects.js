@@ -8,7 +8,7 @@ import { pageAnimation, slider, sliderContainer } from "../animation";
 const Frame1 = styled(motion.div)`
   position: fixed;
   left: 0;
-  top: 10%;
+  top: 10%; 
   width: 100%;
   height: 100vh;
   background: #fffebf;
@@ -22,6 +22,9 @@ const Frame3 = styled(Frame1)`
 `;
 const Frame4 = styled(Frame1)`
   background: #8effa0;
+`;
+const Frame5 = styled(Frame1)`
+background: #e5c9f8;
 `;
 
 const StyledProject = styled(motion.div)`
@@ -40,7 +43,6 @@ const Project = () => {
   return (
     <>
     <StyledProject
-    style={{ background: "#fff" }}
     exit="exit"
     variants={pageAnimation}
     initial="hidden"
@@ -51,6 +53,7 @@ const Project = () => {
         <Frame2 variants={slider}></Frame2>
         <Frame3 variants={slider}></Frame3>
         <Frame4 variants={slider}></Frame4>
+        <Frame5 variants={slider}></Frame5>
       </motion.div>
    <ProjectSection/>
    </StyledProject>

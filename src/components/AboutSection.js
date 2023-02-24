@@ -11,6 +11,9 @@ const AboutSection = () => {
       <motion.div>
         <Hide>
           <motion.h2 variants={titleAnim}>Hi, I'm Angela</motion.h2>
+          {/* <motion.h2 
+            animate={{ opacity: 1, transition: {duration: 2}}} 
+            initial={{ opacity: 0}}>Hi, I'm Angela</motion.h2> */}
         </Hide>
         <Hide>
           <motion.h2 variants={titleAnim}>
@@ -34,3 +37,7 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
+// Framer Motion:
+// replace tags with motion tags
+// takes props like animate, initial, variants, etc.

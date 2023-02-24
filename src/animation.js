@@ -56,7 +56,7 @@ export const lineAnim = {
 };
 
 export const slider = {
-  hidden: { x: "-130%", skew: "45deg" }, //skew: "45deg" is for the rainbow animation 
+  hidden: { x: "-130%", skew: "45deg" }, //skew: rotates it
   show: {
     x: "100%",
     skew: "0deg",
