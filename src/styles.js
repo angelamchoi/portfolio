@@ -37,7 +37,7 @@ export const Image = styled.div`
   border-radius: 50% ;
   img {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     object-fit: cover;
   }
 `;
