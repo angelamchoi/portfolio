@@ -19,7 +19,6 @@ function App() {
         <Route path="/work" exact element={<Work/>}/>
         <Route path ="/contact" exact element={<Contact/>}/>
       </Routes>
-      <AboutMe/>
       <Work/>
       <Contact/>
     </div>
