@@ -1,5 +1,5 @@
 import AboutMe from "./pages/AboutMe";
-import Work from "./pages/Work";
+import Work from "./pages/Projects";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";

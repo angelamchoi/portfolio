@@ -54,3 +54,16 @@ export const lineAnim = {
     transition: { duration: 1 },
   },
 };
+
+export const slider = {
+  hidden: { x: "-130%", skew: "45deg" }, //skew: "45deg" is for the rainbow animation 
+  show: {
+    x: "100%",
+    skew: "0deg",
+    transition: { ease: "easeOut", duration: 1 },
+  },
+};
+export const sliderContainer = {
+  hidden: { opacity: 1 },
+  show: { opacity: 1, transition: { staggerChildren: 0.15, ease: "easeOut" } },
+};
