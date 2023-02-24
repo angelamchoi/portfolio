@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import AngelaChoi from '../img/AngelaChoi.jpg';
+import AngelaChoi from '../img/AngelaChoi.png';
 import { About, Description, Hide, Image } from "../styles";
 import { titleAnim, fade, photoAnim } from "../animation";
 
