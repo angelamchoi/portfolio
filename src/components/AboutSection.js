@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { About, Description, Hide } from "../styles";
 import { titleAnim, fade} from "../animation";
 
-
 const Link = styled.a`
   list-style: none;
   a {
@@ -16,9 +15,13 @@ const Link = styled.a`
   }
   `
 
-  const StyledIcon = styled(Icon)`
-    margin-right: 5px;
-  `;
+const SkillsDescription = styled.h3`
+  font-size: 2.5rem;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-weight: lighter;
+  color: #23d997;
+  `
 
 const AboutSection = () => {
   return (
@@ -49,7 +52,7 @@ const AboutSection = () => {
         </Hide>
         <Hide>
         <motion.p variants={fade}>
-        <h3>Frontend</h3>
+        <SkillsDescription>Frontend</SkillsDescription>
           <Icon icon="vscode-icons:file-type-html" width="80" />
           <Icon icon="vscode-icons:file-type-css" width="80" />
           <Icon icon="skill-icons:sass" width="80" />
@@ -58,21 +61,21 @@ const AboutSection = () => {
           <Icon icon="logos:javascript" width="80" />
           <Icon icon="skill-icons:bootstrap" width="80" />
           <Icon icon="vscode-icons:file-type-reactjs" width="80" />
-        <h3>Backend</h3>
+        <SkillsDescription>Backend</SkillsDescription>
           <Icon icon="skill-icons:rails" width="80" />
-          <Icon icon="logos:ruby" width="80" />
+          <Icon icon="logos:ruby" width="70" />
           <Icon icon="logos:postgresql" width="80" />
           <Icon icon="vscode-icons:file-type-rspec" width="80" />
-          <Icon icon="logos:nodejs" width="80" />
+          <Icon icon="logos:nodejs-icon" width="80" />
           <Icon icon="skill-icons:jest" width="80" />
           <Icon icon="skill-icons:expressjs-dark" width="80" />
           <Icon icon="logos:mongodb-icon" width="50"/>
-        <h3>Tools</h3>
+        <SkillsDescription>Tools</SkillsDescription>
           <Icon icon="ri:markdown-line" width="80" />
           <Icon icon="vscode-icons:file-type-vscode" width="80" />
           <Icon icon="logos:figma" width="50" />
           <Icon icon="skill-icons:postman" width="80" />
-          <Icon icon="logos:heroku-icon" width="80"/>
+          <Icon icon="logos:heroku-icon" width="70"/>
           <Icon icon="uiw:github" width="80" />
           <Icon icon="logos:redis" width="80" />
         </motion.p>        
