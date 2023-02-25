@@ -74,7 +74,7 @@ const AboutSection = () => {
           <Icon icon="ri:markdown-line" width="80" />
           <Icon icon="vscode-icons:file-type-vscode" width="80" />
           <Icon icon="logos:figma" width="50" />
-          <Icon icon="skill-icons:postman" width="80" />
+          <Icon icon="skill-icons:postman" width="75" />
           <Icon icon="logos:heroku-icon" width="70"/>
           <Icon icon="uiw:github" width="80" />
           <Icon icon="logos:redis" width="80" />

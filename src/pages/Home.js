@@ -4,28 +4,27 @@ import HomeSection from "../components/HomeSection";
 import { motion } from "framer-motion";
 import { pageAnimation, slider, sliderContainer } from "../animation";
 
-
-//Rainbow Animation
+//Color Animation
 const Frame1 = styled(motion.div)`
   position: fixed;
   left: 0;
   top: 10%; 
   width: 100%;
   height: 100vh;
-  background: #fffebf;
+  background: #66CDAA;
   z-index: 2; /*covers the whole screen*/ 
 `;
 const Frame2 = styled(Frame1)`
-  background: #ff8efb;
+  background: #8cc751;
 `;
 const Frame3 = styled(Frame1)`
-  background: #8ed2ff;
+  background: #006A4E;
 `;
 const Frame4 = styled(Frame1)`
-  background: #8effa0;
+  background: #18453B;
 `;
 const Frame5 = styled(Frame1)`
-background: #e5c9f8;
+background: #043927;
 `;
 
 const StyledHome = styled(motion.div)`

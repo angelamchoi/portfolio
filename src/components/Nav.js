@@ -6,7 +6,7 @@ display: flex;
 margin: auto;
 justify-content: space-between;
 align-items: center;
-padding: 1rem 10rem;
+padding: 1rem 8rem;
 background-color: 282828;
 a {
   color: white;
@@ -24,12 +24,17 @@ li {
   padding-left: 10rem;
   position: relative;
 }
-`
+#logo {
+  color: #23d997;
+  border: solid 2px #23d997;
+  padding: 0.5rem;
 
+}
+`
 const Nav = () => {
   return(
     <StyledNav>
-      <h1><a href="/">AC</a></h1>
+      <h1><a id="logo"href="/">AC</a></h1>
       <ul>
         <li><a href="/aboutme">About</a></li>
         <li><a href="/work">My Projects</a></li>
