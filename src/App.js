@@ -4,6 +4,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 //Animation
 import { AnimatePresence } from "framer-motion";
 //Router
@@ -21,6 +22,7 @@ function App() {
         <Route path="/work" exact element={<Projects/>}/>
         <Route path ="/contact" exact element={<Contact/>}/>
       </Routes>
+      <Footer/>
       </AnimatePresence>
     </div>
   );
