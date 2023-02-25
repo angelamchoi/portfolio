@@ -5,7 +5,7 @@ import { About, Description, Hide, Image } from "../styles";
 import { titleAnim, fade, photoAnim } from "../animation";
 
 
-const ContactList = styled.li`
+const Contact = styled.a`
   list-style: none;
   a {
     color: white;
@@ -32,9 +32,9 @@ const HomeSection = () => {
       </motion.div>
       <br></br>
       <motion.button variants={fade}> 
-        <ContactList>
+        <Contact>
         <a className='email-link'href='mailto:angelamchoi@gmail.com' target='_blank' rel="noreferrer"> Let's Connect! </a>
-        </ContactList>
+        </Contact>
       </motion.button>
     </Description>
     <Image>

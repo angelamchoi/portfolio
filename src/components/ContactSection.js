@@ -2,6 +2,7 @@ import { About, Description, Hide } from "../styles";
 import styled from "styled-components";
 import { motion } from 'framer-motion';
 import { titleAnim, fade} from "../animation";
+import { Icon } from '@iconify/react';
 
 const ContactList = styled.li`
   list-style: none;
@@ -26,9 +27,11 @@ const ContactSection = () => {
           <a className='email-link'href='mailto:angelamchoi@gmail.com' target='_blank' rel="noreferrer"> 📬 angelamchoi@gmail.com </a>
         </ContactList>
          <ContactList>
-          <a className='github-link'href='https://github.com/angelamchoi' target='_blank' rel="noreferrer">💻 Github </a>
+          <Icon icon="uiw:github" />
+          <a className='github-link'href='https://github.com/angelamchoi' target='_blank' rel="noreferrer"> Github</a> 
          </ContactList>
          <ContactList>
+          <Icon icon="line-md:linkedin" />
           <a className='linkedin-link'href='https://www.linkedin.com/in/angelamchoi/' target='_blank' rel="noreferrer"> LinkedIn </a>
          </ContactList>
         </motion.p>        
