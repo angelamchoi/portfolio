@@ -6,10 +6,12 @@ import { Icon } from '@iconify/react';
 
 const ContactList = styled.li`
   list-style: none;
+  padding: 10px;
   a {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
+    color: #23d997;
   }
   `
 
