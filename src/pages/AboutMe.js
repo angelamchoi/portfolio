@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { pageAnimation, slider, sliderContainer } from "../animation";
+import { pageAnimation } from "../animation";
 import AboutSection from "../components/AboutSection";
 import { motion } from "framer-motion";
 

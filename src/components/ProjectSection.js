@@ -1,10 +1,7 @@
 import { About, Description, Hide } from "../styles";
-import styled from "styled-components";
 import { motion } from 'framer-motion';
 import { titleAnim, fade} from "../animation";
 
-const Project = styled(About)`
-`
 
 const ProjectSection = () => {
   return (

@@ -1,6 +1,6 @@
 import ContactSection from "../components/ContactSection";
 import styled from "styled-components";
-import { pageAnimation, slider, sliderContainer } from "../animation";
+import { pageAnimation } from "../animation";
 import { motion } from "framer-motion";
 
 const StyledContact = styled(motion.div)`
