@@ -18,7 +18,6 @@ ul {
 }
 h1 {
   font-size: 1.8rem;
-  /* font-weight: lighter; */
 }
 li {
   padding-left: 10rem;
@@ -28,16 +27,27 @@ li {
   color: #23d997;
   border: solid 2px #23d997;
   padding: 0.5rem;
+}
 
+@media (max-width: 400px) {
+  li {
+    padding-left: 2rem;
+  }
+
+  #logo {
+    margin-right: 45px;
+    margin-left: -50px;
+  }
 }
 `
+
 const Nav = () => {
   return(
     <StyledNav>
       <h1><a id="logo"href="/">AC</a></h1>
       <ul>
         <li><a href="/aboutme">About</a></li>
-        <li><a href="/work">My Projects</a></li>
+        <li><a href="/work">Projects</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
     </StyledNav>
