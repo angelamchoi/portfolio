@@ -4,7 +4,7 @@ import { titleAnim, fade} from "../animation";
 import ProjectCard from "./ProjectCard";
 
 
-const ProjectSection = ({}) => {
+const ProjectSection = () => {
   return (
     <About>
     <Description>
