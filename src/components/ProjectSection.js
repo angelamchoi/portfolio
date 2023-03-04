@@ -1,9 +1,10 @@
 import { About, Description, Hide } from "../styles";
 import { motion } from 'framer-motion';
 import { titleAnim, fade} from "../animation";
+import ProjectCard from "./ProjectCard";
 
 
-const ProjectSection = () => {
+const ProjectSection = ({}) => {
   return (
     <About>
     <Description>
@@ -13,7 +14,8 @@ const ProjectSection = () => {
         </Hide>
         <Hide>
         <motion.p variants={fade}>
-          Coming Soon!
+          <br></br>
+          <ProjectCard />
         </motion.p>        
       </Hide>
       </motion.div>
