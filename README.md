@@ -7,7 +7,8 @@
 - CSS 
 - Framer Motion
 - Material UI
+- Lottie Animation
 - Deployed on Netlify
 
 ## 🚀 Coming Soon
-- List of projects I've worked on
+- Links to deployed projects
