@@ -1,6 +1,4 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
@@ -14,17 +12,9 @@ const StyledProjectCard = styled.div`
   margin-right: 35px;
   margin-bottom: 35px;
   border: 2px solid #23d997;
-  height: 285px;
+  height: 360px;
   width: 360px;
   margin-left: 10px;
-  `;
-
-const ExtraPadding = styled.div`
-  padding-bottom: 35px;
-  `;
-
-const Padding= styled.div`
-  padding-bottom: 20px;
   `;
 
 const StyledLink = styled.a`
@@ -32,33 +22,66 @@ color: #34c6eb;
 font-size: 12px ;
 `;
 
+const ButtonActions = styled.div`
+margin-top: -28px;
+padding-left: 10px;
+`;
+
+const StyledTechnologiesUsed = styled.div`
+color: #ccc;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 1.43;
+letter-spacing: 0.01071em;
+font-family: "Roboto","Helvetica","Arial",sans-serif;
+margin: 0px;
+padding-bottom: 35px;
+`;
+
+const StyledTechnolgiesUsedMargin = styled.div`
+margin-top: -25px;
+`;
+
+const StyledTechnolgiesUsedLessMargin = styled.div`
+margin-top: -20px;
+`;
+
+const StyledTechnolgiesUsedMorePadding = styled.div`
+padding-bottom: 35px;
+`
+
+const StyledTechnolgiesUsedLessPadding = styled.div`
+margin-bottom: -15px;
+`
+
+
 const ProjectCard = () => {
   return (
     <>
     <Grid2 container spacing={0.5}>
       <StyledProjectCard>
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "#1b1b1b"}}>
       <CardMedia
         title="card matching game"
       />
       <CardContent>
         <Typography gutterBottom variant="h4" component="div" color="white">
-        🃏 Card Matching Game
+        🃏 Card Game
         </Typography>
-        <Typography variant="body1" color="#ccc;">
-        Matching card game is a browser based game with a multiplication twist. As a former math teacher, I wanted to build an engaging and purposeful game to inspire students to practice their multiplication facts while having fun.
+        <Typography variant="body2" color="#ccc;">
+        Matching card game is a browser based game with a multiplication twist. 
         </Typography>
+        <StyledTechnologiesUsed>
+          <span>Technologies Used:</span> HTML, CSS, JavaScript
+        </StyledTechnologiesUsed>
+        <StyledTechnolgiesUsedMorePadding/>
       </CardContent>
-      <CardActions>
-        <Button size="small" a href="https://github.com/angelamchoi/card-game" target="_blank"><StyledLink>💻Code</StyledLink></Button>
-        <Button size="small" a href="https://angelamchoi.github.io/card-game/" target="_blank"><StyledLink>🚀Launch</StyledLink></Button>
-      </CardActions>
-    </Card>
+        <ButtonActions>
+          <Button size="small" a href="https://github.com/angelamchoi/card-game" target="_blank"><StyledLink>💻Code</StyledLink></Button>
+          <Button size="small" a href="https://angelamchoi.github.io/card-game/" target="_blank"><StyledLink>🚀Launch</StyledLink></Button>
+        </ButtonActions>
     </StyledProjectCard>
-
     <br></br>
     <StyledProjectCard>
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "#1b1b1b"}}>
       <CardMedia
         title="plutonotes"
       />
@@ -66,19 +89,21 @@ const ProjectCard = () => {
         <Typography gutterBottom variant="h4" component="div" color="white">
         📝 Plutonotes
         </Typography>
-        <Typography variant="body1" color="#ccc;">
-        Plutonotes is a web application that allows you to create notes and post your notes publicly for anyone to see. The purpose of the application is to allow students to learn and share their knowledge with the world.
+        <Typography variant="body2" color="#ccc;">
+        Plutonotes is a web application that allows you to create notes and post your notes publicly for anyone to see. 
         </Typography>
+        <StyledTechnologiesUsed>
+        <StyledTechnolgiesUsedMargin>
+          <span>Technologies Used:</span> HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, Materialize CSS, Oauth, Passport
+          </StyledTechnolgiesUsedMargin>
+        </StyledTechnologiesUsed>
       </CardContent>
-      <Padding></Padding>
-      <CardActions>
+      <ButtonActions>
         <Button size="small" a href="https://github.com/angelamchoi/plutonotes" target="_blank"><StyledLink>💻Code</StyledLink></Button>
-      </CardActions>
-    </Card>
+      </ButtonActions>
     </StyledProjectCard>
     <br></br>
     <StyledProjectCard>
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "#1b1b1b"}}>
       <CardMedia
         title="gamebreak"
       />
@@ -86,18 +111,19 @@ const ProjectCard = () => {
         <Typography gutterBottom variant="h4" component="div" color="white">
         🕹️ gamebreak
         </Typography>
-        <Typography variant="body1" color="#ccc">
-        gamebreak is a web application that allows you to discover and track your video games. This application was created for General Assembly's Software Engineering Immersive (SEI) Program. This was a group project created by Angela Choi and Kelsey Rocco.
+        <Typography variant="body2" color="#ccc">
+        gamebreak is a web application that allows you to discover and track your video games. 
         </Typography>
-      </CardContent>
-      <CardActions>
+        <StyledTechnologiesUsed>
+          <span>Technologies Used:</span> HTML, CSS, Python, PostgreSQL, Materialize CSS, Authentication, AWS S3 Storage
+        </StyledTechnologiesUsed>    
+       </CardContent>
+      <ButtonActions>
         <Button size="small" a href="https://github.com/angelamchoi/gamebreak" target="_blank"><StyledLink>💻Code</StyledLink></Button>
-      </CardActions>
-    </Card>
+      </ButtonActions>
     </StyledProjectCard>
     <br></br>
     <StyledProjectCard>
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "#1b1b1b"}}>
       <CardMedia
         title="react trivia game"
       />
@@ -105,15 +131,19 @@ const ProjectCard = () => {
         <Typography gutterBottom variant="h4" component="div" color="white">
         🔮 quizzify
         </Typography>
-        <Typography variant="body1" color="#ccc;">
+        <Typography variant="body2" color="#ccc;">
         quizzify is a web application that allows you to add trivia questions and play trivia games to enhance your trivia gaming skills. 
         </Typography>
+        <StyledTechnologiesUsed>
+          <StyledTechnolgiesUsedLessMargin>
+          <span>Technologies Used:</span> HTML, CSS, React.js, Node.js, Express,Bootstrap, MongoDB, Mongoose, Token-based authentication, AJAX, RESTful routing
+          </StyledTechnolgiesUsedLessMargin>
+        </StyledTechnologiesUsed>
+        <StyledTechnolgiesUsedLessPadding/>
       </CardContent>
-      <ExtraPadding></ExtraPadding>
-      <CardActions>
+      <ButtonActions>
         <Button size="small" a href="https://github.com/angelamchoi/react-trivia-game" target="_blank"><StyledLink>💻Code</StyledLink></Button>
-      </CardActions>
-    </Card>
+      </ButtonActions>
     </StyledProjectCard>
     </Grid2>
     </>

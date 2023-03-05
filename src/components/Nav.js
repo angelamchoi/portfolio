@@ -29,7 +29,7 @@ li {
   padding: 0.5rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   li {
     padding-left: 2rem;
   }
