@@ -13,7 +13,7 @@ const StyledProjectCard = styled.div`
   margin-bottom: 35px;
   border: 2px solid #23d997;
   width: 360px;
-  margin-left: 10px;
+  margin-left: 50px;
   `;
 
 const StyledLink = styled.a`
