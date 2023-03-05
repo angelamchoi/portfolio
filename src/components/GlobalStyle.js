@@ -56,6 +56,13 @@ button{
         font-size: 1.4rem;
         line-height: 150%;
     }
+
+.container {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    align-items: center;
+}
 `;
 
 export default GlobalStyle;
