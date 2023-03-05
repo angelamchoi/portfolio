@@ -36,6 +36,10 @@ const ContactSection = () => {
           <Icon icon="line-md:linkedin" />
           <a className='linkedin-link'href='https://www.linkedin.com/in/angelamchoi/' target='_blank' rel="noreferrer"> LinkedIn </a>
          </ContactList>
+         <ContactList>
+          <Icon icon="uil:twitter-alt" />
+          <a className='linkedin-link'href='https://www.twitter.com/AngelamChoi/' target='_blank' rel="noreferrer"> Twitter </a>
+         </ContactList>
         </motion.p>        
       </Hide>
       </motion.div>

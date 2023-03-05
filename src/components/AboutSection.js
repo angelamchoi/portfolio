@@ -3,6 +3,7 @@ import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
 import { About, Description, Hide } from "../styles";
 import { titleAnim, fade} from "../animation";
+import LottieAnimation from './LottieAnimation';
 
 const Link = styled.a`
   list-style: none;
@@ -29,6 +30,7 @@ const AboutSection = () => {
     <Description>
     <motion.div>
         <Hide>
+          <LottieAnimation/>
           <motion.h2 variants={titleAnim}>About Me</motion.h2>
         </Hide>
         <Hide>
