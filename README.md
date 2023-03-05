@@ -6,6 +6,7 @@
 - React
 - CSS 
 - Framer Motion
+- Material UI
 - Deployed on Netlify
 
 ## 🚀 Coming Soon
