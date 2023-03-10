@@ -18,7 +18,7 @@ const StyledProjectCard = styled.div`
 
 const StyledLink = styled.a`
   color: #34c6eb;
-  font-size: 12px ;
+  font-size: 14px ;
 `;
 
 const ButtonActions = styled.div`
