@@ -63,6 +63,8 @@ const AboutSection = () => {
           <Icon icon="skill-icons:javascript" width="80" />
           <Icon icon="skill-icons:bootstrap" width="80" />
           <Icon icon="vscode-icons:file-type-reactjs" width="80" />
+          <br/>
+          <br/>
         <SkillsDescription>Backend</SkillsDescription>
           <Icon icon="skill-icons:rails" width="80" />
           <Icon icon="logos:ruby" width="70" />
@@ -72,6 +74,8 @@ const AboutSection = () => {
           <Icon icon="skill-icons:jest" width="80" />
           <Icon icon="skill-icons:expressjs-dark" width="80" />
           <Icon icon="logos:mongodb-icon" width="40"/>
+          <br/>
+          <br/>
         <SkillsDescription>Tools</SkillsDescription>
           <Icon icon="ri:markdown-line" width="80" />
           <Icon icon="vscode-icons:file-type-vscode" width="80" />
