@@ -12,3 +12,4 @@
 
 ## 🚀 Coming Soon
 - Links to deployed projects
+- Talks section
